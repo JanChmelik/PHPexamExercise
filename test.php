@@ -7,6 +7,12 @@
 </head>
 <body>
       <h3>test</h3>
-      
+      <?php
+      include("dbLogin.php");
+      $con = mysqli_connect($host, $user, $password, $db);
+      if ($con) {
+            
+      }
+      ?>
 </body>
 </html>
